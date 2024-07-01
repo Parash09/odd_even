@@ -1,0 +1,9 @@
+def check_odd_or_even(num):
+    if num % 2 == 0:
+        print(f"{num} is even.")
+    else:
+        print(f"{num} is odd.")
+
+# Example usage:
+num = 17
+check_odd_or_even(num)
